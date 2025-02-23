@@ -120,7 +120,7 @@ for _ in range(15):
         res = []
         word_sets = []
         for a, b in acc.items():
-            if len(a) >= 4 and t[0] in a and set(a) <= letters:
+            if len(a) >= 3 and t[0] in a and set(a) <= letters:
                 res.append((a, b))
                 word_sets.append(set(a))
 
